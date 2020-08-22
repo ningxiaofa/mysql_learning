@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `count_one_hundred_thousand` (
   `b` bigint DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `a` (`a`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=100001 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB;
 
 -- 正在导出表  laravel7.1-admin.test.count_one_hundred_thousand 的数据：~0 rows (大约)
 /*!40000 ALTER TABLE `count_one_hundred_thousand` DISABLE KEYS */;
